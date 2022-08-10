@@ -1,0 +1,13 @@
+apuntes_score.txt
+
+data/preprocessed/
+data/folds.npy
+data/download_data.ipynb
+data/datathon-entel-2022-reto2.zip
+
+notebooks/.ipynb_checkpoints/
+notebooks/backup/
+notebooks/catboost_info
+notebooks/stacking_models.ipynb
+
+results/

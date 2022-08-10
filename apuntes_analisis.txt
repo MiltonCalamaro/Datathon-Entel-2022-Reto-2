@@ -1,0 +1,30 @@
+### validaciones
+# una marca puede tener varios modelos pero un modelo solo pertenece a una marca
+# una departamento puede tener varios puntos de venta pero un punto de venta a un departamento
+# un modelo solo puede tener un tipo gama
+# por lo que un produco de equipo movil consta de marca, modelo y gamma
+
+# No hay valores valores perdidos (nan)
+# Marca(17), Modelo(318), Gama(7), Departamento(25) y Punto de Venta(486), variables categoricas y presentan  los mismos valores en el train que en el test
+# semana, para el train abarca desde semana 1 hasta semana 50. Y para test abarca desde semana 51 a 60
+# Z_MODELO|Z_PUNTO_VENTA|Z_GAMA|SEMANA_XX representa el ID
+
+
+# TARGET 
+#representa la demanda semanal del equipo movil en un respectivo punto de venta
+
+
+
+# Z_MARCA(17), Z_MODELO(318), Z_GAMA(7), Z_DEPARTAMENTO(25) y Z_PUNTO_VENTA(486)
+# 47173 REPRESENTA TODAS LAS COMBINACIONES POSIBLES DE Z_MARCA, Z_MODELO, Z_GAMA, Z_DEPARTAMENTO Y Z_PUNTO_VENTA
+# 47173*60 = 2830380
+
+## No todos los modelos estan distribuidos en todos los puntos de venta y viceversa
+
+## El modelo 481 esta "distribuido" en 481 punto de venta(486) -- modelo distribuido mayormente
+## Cerca de 30 modelos solo están distribuidos en 1 solo punto de venta
+## En promedio los modelos se distribuyen en 148 puntos de venta
+
+## El punto de venta 381 "tiene" 248 modelos(318) -- el punto de venta con mas modelos
+## El punto de venta 486 solo tiene un modelo almacenado
+## En promedio Los puntos de venta tienen 97 modelos almacenados
