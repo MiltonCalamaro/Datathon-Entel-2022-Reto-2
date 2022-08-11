@@ -1,0 +1,22 @@
+### meta, menos de 3.8664
+
+xgboost
+---------
+max_depth=17 y learning_rate=0.2  -- SCORE RSME: 4.30
+max_depth=4 y learning_rate=0.2   -- SCORE RSME: 3.971738546291377
+max_depth=6 y learning_rate=0.2   -- SCORE RSME: 4.050686941194575
+max_depth=3 y learning_rate=0.2   -- SCORE RSME: 3.9425598662334
+max_depth=2 y learning_rate=0.2   -- SCORE RMSE: 3.9233796507040983
+max_depth=2 y learning_rate=0.1   -- SCORE RMSE: 3.9098521717916386
+max_depth=2 y learning_rate=0.05  -- SCORE RMSE: 3.905600066638518   ***
+max_depth=1 y learning_rate=0.05  -- SCORE RMSE: 3.914642536248333
+
+max_depth=2 , learning_rate=0.05, booster='gblinear'    -- SCORE RMSE:  3.7646204249133484   ***
+max_depth=2 , learning_rate=0.05, booster='dart'        -- SCORE RMSE:  3.9056000589919475
+
+lightgbm
+---------
+
+max_depth=2 y learning_rate=0.05  -- SCORE RMSE:  4.705324888574379
+max_depth=2 y learning_rate=0.2   -- SCORE RMSE:  4.706902081924745
+max_depth=3 y learning_rate=0.2   -- SCORE RMSE:  4.706144690486498

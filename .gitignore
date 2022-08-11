@@ -8,6 +8,6 @@ data/datathon-entel-2022-reto2.zip
 notebooks/.ipynb_checkpoints/
 notebooks/backup/
 notebooks/catboost_info
-notebooks/stacking_models.ipynb
+#notebooks/stacking_models.ipynb
 
 results/
