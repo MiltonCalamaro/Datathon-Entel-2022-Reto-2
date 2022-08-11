@@ -1,0 +1,10 @@
+{'learning_rate': 0.2, 'max_depth': 10, 'num_leaves': 50}    ---- SCORE RMSE:  3.869320257171911
+{'learning_rate': 0.2, 'max_depth': 10, 'num_leaves': 100}   ---- SCORE RMSE:  3.869320257171911
+{'learning_rate': 0.2, 'max_depth': 12, 'num_leaves': 50}    ---- SCORE RMSE:  3.85332013602972
+{'learning_rate': 0.2, 'max_depth': 14, 'num_leaves': 50}    ---  SCORE RMSE:  3.857026267545909
+{'learning_rate': 0.2, 'max_depth': 14, 'num_leaves': 100}   ---  SCORE RMSE:  3.857026267545909
+{'learning_rate': 0.2, 'max_depth': 16, 'num_leaves': 50}    ---- SCORE RMSE:  3.848791854431776
+{'learning_rate': 0.2, 'max_depth': 16, 'num_leaves': 100}   ---- SCORE RMSE:  3.848791854431776 
+
+{'learning_rate': 0.2, 'max_depth': 15, 'num_leaves': 100}   ---- SCORE RMSE:  3.855131060649405
+{'learning_rate': 0.2, 'max_depth': 17, 'num_leaves': 100}   ---- SCORE RMSE:  3.8464632247138777  ***

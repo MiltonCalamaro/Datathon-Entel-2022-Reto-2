@@ -1,7 +1,5 @@
 apuntes_score.txt
-apuntes_score_v2.txt
-tunning_catboost.txt
-tunning_lightgbm.txt
+
 data/preprocessed/
 data/folds.npy
 data/download_data.ipynb

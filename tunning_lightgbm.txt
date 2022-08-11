@@ -1,0 +1,112 @@
+{'learning_rate': 0.166414, 'max_depth': 6}     ---- SCORE RMSE:  4.0674479568873325
+{'learning_rate': 0.166414, 'max_depth': 8}     ---- SCORE RMSE:  4.076567323592319
+{'learning_rate': 0.166414, 'max_depth': 10}   ---- SCORE RMSE:  4.025856401005811
+
+
+{'learning_rate': 0.05, 'max_depth': 6}            ---- SCORE RMSE:  4.12510705755573
+{'learning_rate': 0.05, 'max_depth': 8}            ---- SCORE RMSE:  4.072916880470714
+{'learning_rate': 0.05, 'max_depth': 10}          ---- SCORE RMSE:  4.035182837501329
+
+{'learning_rate': 0.1, 'max_depth': 6}              ---- SCORE RMSE:  4.035012472276181
+{'learning_rate': 0.1, 'max_depth': 8}              ---- SCORE RMSE:  4.092682086537579
+{'learning_rate': 0.1, 'max_depth': 10}            ---- SCORE RMSE:  4.11549775717154
+
+{'learning_rate': 0.2, 'max_depth': 6}               ---- SCORE RMSE:  4.071574134696744
+{'learning_rate': 0.2, 'max_depth': 8}               ---- SCORE RMSE:  4.05032841566976
+{'learning_rate': 0.2, 'max_depth': 10}             ---- SCORE RMSE:  4.044679774462274
+
+{'learning_rate': 0.166414, 'max_depth': 12}   ---- SCORE RMSE:  4.031938979582571
+{'learning_rate': 0.166414, 'max_depth': 14}   ---- SCORE RMSE:  4.025019053662001
+
+{'learning_rate': 0.05, 'max_depth': 12}           ---- SCORE RMSE:  4.050746079746132
+{'learning_rate': 0.05, 'max_depth': 14}           ---- SCORE RMSE:  4.035384593592978
+
+{'learning_rate': 0.1, 'max_depth': 12}             ---- SCORE RMSE:  4.034392100441953
+{'learning_rate': 0.1, 'max_depth': 14}             ---- SCORE RMSE:  4.08442972023649
+
+{'learning_rate': 0.2, 'max_depth': 12}             ---- SCORE RMSE:  4.0242168227257
+{'learning_rate': 0.2, 'max_depth': 14}             ---- SCORE RMSE:  4.019953156808607
+
+{'colsample_bytree': 0.8, 'learning_rate': 0.2, 'max_depth': 14, 'subsample': 0.8}
+SCORE RMSE:  4.0521798043936705
+
+{'colsample_bytree': 0.8, 'learning_rate': 0.2, 'max_depth': 14, 'subsample': 1.0}
+SCORE RMSE:  4.0521798043936705
+
+{'colsample_bytree': 1.0, 'learning_rate': 0.2, 'max_depth': 14, 'subsample': 0.8}
+SCORE RMSE:  4.019953156808607
+
+{'colsample_bytree': 1.0, 'learning_rate': 0.2, 'max_depth': 14, 'subsample': 1.0}
+SCORE RMSE:  4.019953156808607
+
+{'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'learning_rate': 0.2, 'max_depth': 18, 'subsample': 1.0}
+SCORE RMSE:  4.0101294073192655
+
+{'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'learning_rate': 0.2, 'max_depth': 20, 'subsample': 1.0}
+SCORE RMSE:  4.0101294073192655
+
+{'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'importance_type': 'gain', 'learning_rate': 0.2, 'max_depth': 18, 'subsample': 1.0}
+SCORE RMSE:  4.0101294073192655
+
+{'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'importance_type': 'gain', 'learning_rate': 0.2, 'max_depth': 18, 'num_leaves': 100, 'subsample': 1.0}
+SCORE RMSE:  3.9262264628368255
+
+{'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'importance_type': 'gain', 'learning_rate': 0.2, 'max_depth': 18, 'num_leaves': 200, 'subsample': 1.0}
+SCORE RMSE:  3.9597952418712836
+
+{'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'importance_type': 'gain', 'learning_rate': 0.2, 'max_depth': 18, 'num_leaves': 50, 'subsample': 1.0}
+SCORE RMSE:  4.000784900505102
+
+{'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'importance_type': 'gain', 'learning_rate': 0.2, 'max_depth': 18, 'num_leaves': 75, 'subsample': 1.0}
+SCORE RMSE:  3.9961069322157914
+
+{'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'importance_type': 'gain', 'learning_rate': 0.2, 'max_depth': 18, 'num_leaves': 64, 'subsample': 1.0}
+SCORE RMSE:  3.960405463407203
+
+{'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'importance_type': 'gain', 'learning_rate': 0.2, 'max_depth': 18, 'num_leaves': 128, 'subsample': 1.0}
+SCORE RMSE:  3.9279602217336413
+
+{'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'importance_type': 'gain', 'learning_rate': 0.2, 'max_depth': 18, 'min_child_samples': 40, 'num_leaves': 100, 'subsample': 1.0}
+SCORE RMSE:  3.9934296726944423
+
+{'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'importance_type': 'gain', 'learning_rate': 0.2, 'max_depth': 18, 'min_child_samples': 60, 'num_leaves': 100, 'subsample': 1.0}
+SCORE RMSE:  3.9893564511350834
+
+{'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'importance_type': 'gain', 'learning_rate': 0.2, 'max_depth': 18, 'min_child_samples': 10, 'num_leaves': 100, 'subsample': 1.0}
+SCORE RMSE:  3.960561530220615
+
+{'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'importance_type': 'gain', 'learning_rate': 0.2, 'max_depth': 18, 'min_child_samples': 100, 'num_leaves': 100, 'subsample': 1.0}
+SCORE RMSE:  4.100351864854816
+
+{'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'importance_type': 'gain', 'learning_rate': 0.2, 'max_depth': 18, 'min_split_gain': 0.1, 'num_leaves': 100, 'subsample': 1.0}
+SCORE RMSE:  3.9194379462432867
+
+{'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'importance_type': 'gain', 'learning_rate': 0.2, 'max_depth': 18, 'min_split_gain': 0.2, 'num_leaves': 100, 'subsample': 1.0}
+SCORE RMSE:  3.93341902935647
+
+{'boosting_type': 'goss', 'colsample_bytree': 1.0, 'learning_rate': 0.2, 'max_depth': 14, 'subsample': 1.0}
+SCORE RMSE:  4.034129414314706
+
+{'boosting_type': 'goss', 'colsample_bytree': 1.0, 'learning_rate': 0.2, 'max_depth': 16, 'subsample': 1.0}
+SCORE RMSE:  4.046781444503228
+
+{'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'learning_rate': 0.2, 'max_depth': 14, 'subsample': 1.0}
+SCORE RMSE:  4.019953156808607
+
+{'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'learning_rate': 0.2, 'max_depth': 16, 'subsample': 1.0}
+SCORE RMSE:  4.010627699041527
+
+
+{'learning_rate': 0.2, 'max_depth': 15, 'min_split_gain': 0.1, 'num_leaves': 100} *****
+SCORE RMSE:  3.919659323331133
+
+{'learning_rate': 0.2, 'max_depth': 17, 'min_split_gain': 0.1, 'num_leaves': 100}
+SCORE RMSE:  3.9232904302826257
+
+{'learning_rate': 0.2, 'max_depth': 11, 'min_split_gain': 0.1, 'num_leaves': 100}
+SCORE RMSE:  3.928445761214613
+
+{'learning_rate': 0.2, 'max_depth': 13, 'min_split_gain': 0.1, 'num_leaves': 100}
+SCORE RMSE:  3.9321566724508825
+
+

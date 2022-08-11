@@ -1,0 +1,33 @@
+{'learning_rate': 0.166414, 'max_depth': 4}          ---- SCORE RMSE:  4.417661905125716
+{'learning_rate': 0.166414, 'max_depth': 6}          ---- SCORE RMSE:  4.1260933231819354
+{'learning_rate': 0.166414, 'max_depth': 8}          ---- SCORE RMSE:  4.017134216773539
+{'learning_rate': 0.166414, 'max_depth': 10}         ---- SCORE RMSE:  3.931839274733481
+{'learning_rate': 0.166414, 'max_depth': None}       ---- SCORE RMSE:  4.1260933231819354
+
+{'learning_rate': 0.05, 'max_depth': 4}              ---- SCORE RMSE:  4.514109238947877
+{'learning_rate': 0.05, 'max_depth': 6}              ---- SCORE RMSE:  4.163984446619219
+{'learning_rate': 0.05, 'max_depth': 8}              ---- SCORE RMSE:  4.023414764623011
+{'learning_rate': 0.05, 'max_depth': 10}             ---- SCORE RMSE:  3.928215621592875
+{'learning_rate': 0.05, 'max_depth': None}           ---- SCORE RMSE:  4.163984446619219
+
+{'learning_rate': 0.1, 'max_depth': 4}               ---- SCORE RMSE:  4.5250092211414685
+{'learning_rate': 0.1, 'max_depth': 6}               ---- SCORE RMSE:  4.226901806436281
+{'learning_rate': 0.1, 'max_depth': 8}               ---- SCORE RMSE:  3.998499822161827
+{'learning_rate': 0.1, 'max_depth': 10}              ---- SCORE RMSE:  3.920270818785255
+{'learning_rate': 0.1, 'max_depth': None}            ---- SCORE RMSE:  4.226901806436281 
+
+
+{'learning_rate': 0.2, 'max_depth': 4}               ---- SCORE RMSE:  4.444704926231468
+{'learning_rate': 0.2, 'max_depth': 6}               ---- SCORE RMSE:  4.1461632860717765
+{'learning_rate': 0.2, 'max_depth': 8}               ---- SCORE RMSE:  4.007349166344695
+{'learning_rate': 0.2, 'max_depth': 10}              ---- SCORE RMSE:  3.9162724175449206
+{'learning_rate': 0.2, 'max_depth': None}            ---- SCORE RMSE:  4.146163286071776
+
+{'learning_rate': 0.2, 'max_depth': 12}              ---- SCORE RMSE:  3.8697035059604348 ***
+{'learning_rate': 0.2, 'max_depth': 14}              ---- SCORE RMSE:  3.928157299451689
+{'learning_rate': 0.2, 'max_depth': 16}              ---- SCORE RMSE:  3.9244223486007472
+
+
+{'learning_rate': 0.2, 'max_depth': 11}              ---- SCORE RMSE:  3.9041654768059195
+{'learning_rate': 0.2, 'max_depth': 13}              ---- SCORE RMSE:  3.8861924916363764
+{'learning_rate': 0.2, 'max_depth': 15}              ---- SCORE RMSE:  3.917331667502718
